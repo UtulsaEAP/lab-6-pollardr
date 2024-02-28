@@ -19,7 +19,7 @@ def process_and_print(input_string):
     result = ''
     for num in input_data:
         result+= str(num) + ' '
-    print(result)
+    print(result, end='')
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
