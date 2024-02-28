@@ -3,7 +3,14 @@
 
 def in_order(nums):
     # Type your code here.
-      print('hello')
+    condition = True
+    for i in range(0, len(nums)-1,1):
+          if nums[i] > nums[i+1]:
+              condition = False
+    return condition
+
+
+
 if __name__ == '__main__':
     # Test out-of-order example
     nums1 = [5, 6, 7, 8, 3]
