@@ -1,13 +1,6 @@
 import unittest
-#from main import process_input
+from varied import process_input
      
-def process_input(input_string):
-    nums = list(map(float,input_string.split()))
-
-    maxval = max(nums)
-    avg = sum(nums)/len(nums)
-    print(f'{maxval: .2f} ', f'{avg: .2f}')
-    return f'{maxval: .2f} ', f'{avg: .2f}'
 
 class TestProcessInput(unittest.TestCase):
     def test_case_1(self):

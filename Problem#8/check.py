@@ -1,6 +1,9 @@
+#Riley Pollard
+# Lab thursday 2pm, Wednesday Class
+
 def in_order(nums):
     # Type your code here.
-    
+      print('hello')
 if __name__ == '__main__':
     # Test out-of-order example
     nums1 = [5, 6, 7, 8, 3]

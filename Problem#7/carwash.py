@@ -1,3 +1,6 @@
+#Riley Pollard
+# Lab thursday 2pm, Wednesday Class
+
 def calculate_car_wash_price(service_choice1, service_choice2):
     services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5}
     base_wash = 10

@@ -1,3 +1,6 @@
+#Riley Pollard
+# Lab thursday 2pm, Wednesday Class
+
 def check_palindrome(user_input):
  #type your code here
     str1 = ''

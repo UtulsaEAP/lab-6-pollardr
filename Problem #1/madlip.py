@@ -1,3 +1,6 @@
+#Riley Pollard
+# Lab thursday 2pm, Wednesday Class
+
 def food_input():
     
     #type you while  loop here
