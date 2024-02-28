@@ -7,7 +7,7 @@ def filter_and_print_range(input_list, min_val, max_val):
     for num in input_list:
         if int(num) <= max_val and int(num)>= min_val:
             outputstr += str(num) + ','
-    print(outputstr)       
+    print(outputstr, end='')       
 
 if __name__ == '__main__':
     # Get input for the list of integers
